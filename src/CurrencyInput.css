@@ -1,0 +1,36 @@
+/* Lets set up some colours, via hexadecimal vlaues, that we can use throughout our script for styling our webpage */
+:root {
+--dark: #374151;
+--darker: #1F2937;
+--darkest: #111827;
+--grey: #6B7280;
+--light: #dcd9d9;
+--pink: #EC4899;
+--purple: #8B5CF6;
+--darkpurple: #242943; /* dark purple/blue like email BG #242943, or light purple/grey: rgba(212, 212, 255, 0.1)  */
+}
+
+.group{
+    background-color: var(--darkest);
+    width: 180px;
+    margin: 0 auto 20px;
+    display: grid;
+    grid-template-columns: 180px 80px;
+    border-radius: 15px;
+}
+
+input, select{
+    background: none;
+    border: 0;
+    font-weight: 800;
+    color: #858585; /* gradient colour on the currencies*/;
+}
+
+input{
+    padding-left: 10px
+}
+
+select{
+    padding-left: 15px
+}
+
